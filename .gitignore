@@ -1,0 +1,39 @@
+
+# Ignore IDEs
+/.vscode
+
+# Ignore vendor dependencies and scripts
+/vendor
+/node_modules
+/node_modules/.vite
+*.timestamp-*.mjs
+/
+/web/themes/custom/rca/dist/js/chunks/
+
+# Ignore libraries
+/web/libraries
+# Ignore paths that may contain temporary files
+/web/tmp
+/web/sites/README.txt
+/web/sites/*/translations
+/web/sites/*/tmp
+/web/sites/*/cache
+/web/sites/*/files
+
+# Ignore drupal core and contributed projects
+/web/core
+/web/modules/README.txt
+/web/modules/contrib/*
+/web/profiles/README.txt
+/web/profiles/contrib/*
+/web/themes/README.txt
+/web/themes/contrib/*
+/web/librairies/*
+
+# Ignore local .env file
+.env
+#phpc dist files
+grumphp.yml.dist
+phpcs.xml.dist
+phpstan.neon.dist
+phpmd.xml.dist

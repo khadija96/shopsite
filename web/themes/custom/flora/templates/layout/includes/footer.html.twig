@@ -1,0 +1,25 @@
+<footer class="footer footer_en lang-{{language}}">
+    <div class="overlay"></div>
+    <div class="footer__container">
+        <div class="row">
+            <div class="footer__left">
+                {{ page.system_branding }}
+                {% if page.footer %}
+                  {{ page.footer }}
+                {% endif %}
+            </div>
+            <div class="footer__right">
+                <div class="menu">
+                    {% if page.footer_menu %}
+                       {{ page.footer_menu }}
+                  {% endif %}
+                </div>
+            </div>
+            {% if page.footer_copyright %}
+                {#<div class="footer__bottom" >#}
+                    {{ page.footer_copyright }}
+                {#</div>#}
+            {% endif %}
+        </div>
+    </div>
+</footer>

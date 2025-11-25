@@ -1,0 +1,25 @@
+
+{% if page.breadcrumb or page.page_title %}
+    {% if page.page_title %}
+        {#{{ photo_top }}#}
+<section class="title-banner">
+    <div class="title-banner__bg">
+        <img src="{{ photo_top }}" class="img-fluid w-100" alt="Ebl">
+    </div>
+    <div class="title-banner__content title style1">
+        <div class="container">
+            <div class="title-banner__content__breadcrumbs">
+             {{ page.page_title }}
+                <nav aria-label="breadcrumb">
+
+                    {% if page.breadcrumb %}
+                        {{ page.breadcrumb }}
+                    {% endif %}
+                    
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+    {% endif %}
+{% endif %}

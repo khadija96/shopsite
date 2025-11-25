@@ -1,0 +1,40 @@
+{
+  "name": "shopsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build --base=./",
+    "dev+build": "npm-run-all --parallel dev build",
+    "build-watch": "vite build --base=./ --watch",
+    "preview": "vite preview --port=8080"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.94.2",
+    "vite": "^6.0.0",
+    "vite-plugin-full-reload": "^1.2.0",
+    "vite-plugin-html-include": "^1.5.2",
+    "vite-plugin-html-purgecss": "^0.1.1",
+    "vite-plugin-imagemin": "^0.6.1",
+    "vite-plugin-live-reload": "^3.0.5",
+    "vite-plugin-static-copy": "^3.1.4"
+  },
+  "dependencies": {
+    "@fancyapps/ui": "^6.1.6",
+    "@lysla/afterviewportjs": "^0.1.7",
+    "@popperjs/core": "^2.11.8",
+    "@studio-freight/lenis": "^1.0.42",
+    "bootstrap": "^5.3.8",
+    "gsap": "^3.13.0",
+    "hamburgers": "^1.2.1",
+    "metismenujs": "^1.4.0",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^12.0.3"
+  }
+}

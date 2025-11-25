@@ -1,0 +1,19 @@
+name: FLORA
+type: theme
+description: Theme personnalisé pour le site RCA LOCATION
+core_version_requirement: ^9 || ^10 || ^11
+base theme: false
+
+regions:
+  site_branding: "Site branding"
+  main_navigation: "Main navigation"
+  page_title: "Page title"
+  status_message: "status messages"
+  administration: "Administration"
+  content: "Content"
+  content_below: Content Below
+  footer_top: Footer Top
+  footer_content: Footer Content
+  footer_bottom: Footer Bottom
+  cookies: 'Cookies'
+  disabled: "Disabled"
