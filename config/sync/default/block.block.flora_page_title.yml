@@ -1,0 +1,20 @@
+uuid: 39e262b2-4faa-4feb-8008-dd29b408f662
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - flora
+_core:
+  default_config_hash: fNwDdW063tk_ktzSWzZVeQS9wzvLooVO280BQ9WrsIs
+id: flora_page_title
+theme: flora
+region: site_branding
+weight: -30
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Titre de la page'
+  label_display: '0'
+  provider: core
+visibility: {  }

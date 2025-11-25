@@ -1,0 +1,7 @@
+uuid: 2200d88b-c75d-43cc-bf41-ae3dd1ff8449
+langcode: fr
+status: false
+dependencies: {  }
+formId: node_webform_form
+captchaType: default
+label: node_webform_form

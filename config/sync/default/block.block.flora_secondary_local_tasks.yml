@@ -1,0 +1,22 @@
+uuid: 1caa930c-4f11-4649-9000-6f2a7f9e9bda
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - flora
+_core:
+  default_config_hash: 2L0geP-ixCbCkEpW6BVF6H7vDUZN4ea07_Y9CociQm4
+id: flora_secondary_local_tasks
+theme: flora
+region: site_branding
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Onglets secondaires'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

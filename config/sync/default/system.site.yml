@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: HlN7eAN2N4JIHsYv56V4E7sqC9bS609KwvGFjyD_mgk
+langcode: fr
+uuid: c41d4d14-072b-4db3-b716-eab0fecd9aad
+name: 'Flora shop'
+mail: khadijamighrmg@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /user/login
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: fr
+mail_notification: null

@@ -1,0 +1,18 @@
+uuid: 06816b92-0b13-4e00-b090-21924e5d2da5
+langcode: fr
+status: true
+dependencies:
+  config:
+    - filter.format.webform_default
+  module:
+    - filter
+    - system
+_core:
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+id: authenticated
+label: 'Utilisateur authentifié'
+weight: 1
+is_admin: false
+permissions:
+  - 'access content'
+  - 'use text format webform_default'

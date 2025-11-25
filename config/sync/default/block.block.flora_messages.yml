@@ -1,0 +1,22 @@
+uuid: 782ff1d3-44c4-44fe-b441-87811c72acfd
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - flora
+_core:
+  default_config_hash: '-Ac3ISpIT0PQ-whzD7_dw0SdKi6dAbRFNWdSjOiVDqg'
+id: flora_messages
+theme: flora
+region: site_branding
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Messages de statut'
+  label_display: '0'
+  provider: system
+visibility: {  }

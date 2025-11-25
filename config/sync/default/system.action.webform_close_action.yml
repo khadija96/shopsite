@@ -1,0 +1,13 @@
+uuid: 4c5f0282-7f9b-4486-9caf-2788a4032d2a
+langcode: fr
+status: true
+dependencies:
+  module:
+    - webform
+_core:
+  default_config_hash: Dl-1T9PDkraB7MyMUjTJAioPEx6UNvIB9gqmnB1CRkk
+id: webform_close_action
+label: 'Close webform'
+type: webform
+plugin: webform_close_action
+configuration: {  }

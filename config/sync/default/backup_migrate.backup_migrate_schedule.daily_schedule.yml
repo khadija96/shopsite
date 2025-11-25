@@ -1,0 +1,15 @@
+uuid: 9ce98ed0-e5e3-47c7-b8cb-3b434aa87716
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: B6mQr6j7ZcqZB14S8ytJEXCYzOQ1mcOW9-oWYbtkbJc
+id: daily_schedule
+label: 'Planification quotidienne'
+enabled: false
+keep: null
+period: null
+cron: null
+source_id: default_db
+destination_id: private_files
+settings_profile_id: null

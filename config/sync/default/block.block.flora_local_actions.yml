@@ -1,0 +1,20 @@
+uuid: 9a409f5b-9bdb-47f4-9b21-9feb1c047b1c
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - flora
+_core:
+  default_config_hash: CdXfDmRgAvms7EQovxxWPdYi0GitxeRbVtScYK16ZH0
+id: flora_local_actions
+theme: flora
+region: content
+weight: -10
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: "Actions d'administration principales"
+  label_display: '0'
+  provider: core
+visibility: {  }

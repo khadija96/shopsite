@@ -1,0 +1,16 @@
+_core:
+  default_config_hash: hfqTr6E3eXAcVQU25_tYHa4BzsSDaYhwkoF34xq5_k4
+langcode: fr
+enable_globally: 0
+enable_globally_on_admin_routes: false
+default_challenge: captcha/Math
+description: "Cette question sert à vérifier si vous êtes un visiteur humain ou non afin d'éviter les soumissions de pourriel (spam) automatisées."
+title: CAPTCHA
+administration_mode: false
+administration_mode_on_admin_routes: false
+whitelist_ips: ''
+wrong_captcha_response_message: 'La réponse saisie pour le CAPTCHA est incorrecte.'
+default_validation: 1
+persistence: 1
+enable_stats: false
+log_wrong_responses: false
