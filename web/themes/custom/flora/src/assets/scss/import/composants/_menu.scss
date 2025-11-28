@@ -1,0 +1,38 @@
+header{
+  background-color: $bg-menu;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+.header__logo {
+      img {
+        width: 200px;
+      }
+    }
+.mainnav{
+  position:relative;
+  top:2%;
+
+}
+.menu{
+      padding: 3px 20px;
+      margin: 0;
+      list-style: none;
+        display: flex;
+  &__item{
+    padding: 9px;
+  }
+     
+}    
+
+.menu a {
+  color:  $dark-grey ;
+    font-weight: bold;
+    padding-bottom: 5px;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+}
