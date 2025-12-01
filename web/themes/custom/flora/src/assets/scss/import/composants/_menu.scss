@@ -1,11 +1,30 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* s’assure que body prend tout l’écran */
+}
+
+main {
+  flex: 1 0 auto; /* main prend tout l’espace restant */
+   margin-top:10%;
+}
+
 header{
   background-color: $bg-menu;
   padding: 10px 0;
   position: fixed;
   width: 100%;
   top: 0;
+  margin-bottom:10%;
+}
+.header_menu {
+  display: flex;
+  justify-content: center;   // center horizontally
+  align-items: center;        // center vertically
 }
 .header__logo {
+   position:relative;
+  left: 20%;
       img {
         width: 200px;
       }
@@ -13,6 +32,8 @@ header{
 .mainnav{
   position:relative;
   top:2%;
+  align-items: center;
+  margin-left: 20%;
 
 }
 .menu{
@@ -26,7 +47,7 @@ header{
      
 }    
 
-.menu a {
+.menu__item  a {
   color:  $dark-grey ;
     font-weight: bold;
     padding-bottom: 5px;
@@ -35,4 +56,38 @@ header{
     font-size: 0.85rem;
     letter-spacing: 0.5px;
     text-decoration: none;
+    &:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;           // thickness of underline
+    bottom: 0;
+    left: 0;
+    background-color:   $gold;
+    transition: width 0.3s ease;
+  }
+
+  &:hover:after {
+    width: 100%;           // underline expands on hover
+  }
+
+}
+.cta-button {
+  display: inline-block;        // keeps it inline but allows width/height
+  background-color: $gold;      // button color
+  color: $white;                // text color
+  border-radius: 25px;          // rounded corners
+  text-decoration: none;        // remove underline
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 20px;           // add some spacing
+  font-size: 0.85rem;           // optional: smaller text
+  transition: background-color 0.3s ease, color 0.3s ease; // smooth hover
+  cursor: pointer;              // pointer on hover
+
+  &:hover {
+    background-color: darken($gold, 10%); // slightly darker on hover
+    color: $white;
+    text-decoration: none;
+  }
 }
