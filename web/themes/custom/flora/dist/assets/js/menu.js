@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{const e=document.getElementById("nav-toggle"),n=document.querySelector(".mainnav");e&&n?e.addEventListener("click",()=>{n.classList.toggle("open")}):console.log("Erreur : nav-toggle ou mainnav introuvable")});
