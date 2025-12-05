@@ -2,11 +2,13 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh; /* s’assure que body prend tout l’écran */
+ 
 }
 
 main {
-  flex: 1 0 auto; /* main prend tout l’espace restant */
-   margin-top:10%;
+  // flex: 1 0 auto; /* main prend tout l’espace restant */
+  
+  
 }
 
 header{
@@ -16,6 +18,7 @@ header{
   width: 100%;
   top: 0;
   margin-bottom:10%;
+  z-index:200;
 }
 .header_menu {
   display: flex;

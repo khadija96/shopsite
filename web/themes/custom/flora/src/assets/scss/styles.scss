@@ -1,6 +1,10 @@
 @import "./import/base/typography";
 @import "./import/base/variables";
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
 
 
 @import "./import/composants/menu";
 @import "./import/composants/footer";
+@import "./import/composants/home";
